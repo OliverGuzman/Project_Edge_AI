@@ -1,0 +1,9 @@
+face-detection-tflite
+tensorflow
+keras
+opencv-python
+matplotlib
+numpy
+pandas
+datasets
+scikit-learn
