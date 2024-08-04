@@ -10,7 +10,7 @@ This project focuses in investigating, training, testing, and using two deep lea
 
 The project is divided in two parts, the app that holds Java code and utilizes the trained models to run predictions, and the python code to preprocess the data and train the models.
 
-The app consists of three main classes MainActivity.java, CameraActivity.java, and qualities_recognition.java. In summary, these three clases connect the interface of the app with the camera and the models to run the predictions using a real time feed and return the prediction and draw a rectangule around the face which includes the predictions. This app is based upon this repositoty https://github.com/pramod722445/Facial_Expression_App.
+The app consists of three main classes MainActivity.java, CameraActivity.java, and qualities_recognition.java. In summary, these three clases connect the interface of the app with the camera and the models to run the predictions using a real time feed and return the prediction and draw a rectangule around the face which includes the predictions.
 
 For the python code, it consists of three files age_gender_model.py, emotion_model.py, and model_convertion.py. In the first two files, it is described the preprocessing of data, model structure, model trianing and plotting of the results for both emotion and age and gender models. The thrid file describes the testing of the models before and after the converstion to tensorflow lite.
 
